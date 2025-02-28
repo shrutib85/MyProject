@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cardamom</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #0e0101;
+  line-height: 1.8;
+}
+#about{
+    font-size: 22px;
+    text-align: justify;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('img/vi1.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("img/vi3.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="dspice.php" class="w3-bar-item w3-button">HOME</a>
+    <style>
+      .dropdown {
+      position: relative;
+      display: inline-block;
+      }
+  
+      .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color:  var(--color-black);
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+      }
+  
+      .dropdown:hover .dropdown-content {
+      display: block;
+      }
+      </style>
+      <a href="#" style="float:right; padding:20px; "> 
+    <p ><div id="google_translate_element"></div>
+  
+      <script type="text/javascript">
+      function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+      }
+      </script>
+  
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script></p>
+        </div>
+      </a>
+    
+  </div>
+
+  <!-- Navbar on small screens -->
+  
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Cardamom</h3>
+  
+  <p>Cardamom is a spice belonging to the Zingiberaceae family that is widely found in South India and Indonesia. This Ayurvedic herb has a fruity and menthol-like flavour that makes sweet dishes tastier. Apart from cooking, cardamom has medicinal importance too. It helps reduce indigestion, intestinal problems, heartburn, constipation, liver diseases, and so on.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <br>
+      <img src="img/vi2.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Cardamom (Elettaria cardamomum), which is sometimes referred to as the “queen of spices,” has been part of Ayurvedic medicine since ancient times.</p> 
+      <p>Cardamom powder may help reduce blood pressure in people with elevated levels. There’s also evidence that inhaling cardamom essential oil may increase the uptake of oxygen into the lungs during exercise</p>
+      <p>Moreover, research suggests that cardamom may help protect against Helicobacter pylori bacteria, which is a common cause of stomach ulcers</p>
+    </div>
+  </div>
+  <b><h3 class="">How to use ?</h3></b>
+  <ul>
+   <li>The cardamom seeds are used in preparing meat dishes, desserts, and even beverages like tea and coffee.</li><br>
+   <li>Cardamom is available in the form of oil that you can apply on your skin for a refreshing sensation.</li><br>
+   <li>As per research, cardamom can be used to retain healthy hair and reduce hair fall.</li><br>
+   
+   <br>
+</ul>
+<b><h3 class="">Benefits</h3></b>
+  <ul>
+   <li>Reduces blood pressure.</li><br>
+   <li>Helps in fighting cancer.</li><br>
+   <li>Improves oral health.</li><br>
+   <li>Reduces anxiety.</li><br>
+</ul>
+<b><h3 class="">Precaution</h3></b>
+  <ul>
+   <li>Pregnant women must avoid cardamom as it can lead to miscarriage.</li><br>
+   <li>Consuming too much cardamom can cause loss of appetite and sore throat.</li><br>
+   
+   <br>
+   
+</ul>
+<b><h3 class="">Who Should Avoid Using This?</h3></b>
+  <ul>
+   <li>People suffering from diarrhoea.</li><br>
+   <li>Persons having diabetes.</li><br>
+   <li>Anyone undergoing surgery.</li><br>
+   <br>
+   
+</ul>
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  
+</div>
+
+
+
+</body>
+</html>

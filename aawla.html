@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aawla</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #050505;
+  line-height: 1.8;
+}
+#about{
+    font-size: 22px;
+    text-align: justify;
+}
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('aamla.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Portfolio) */
+.bgimg-2 {
+  background-image: url("aamla.jpg");
+  min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+  background-image: url("/w3images/parallax3.jpg");
+  min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="" class="w3-bar-item w3-button">HOME</a>
+    
+    
+  </div>
+
+  
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+  
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">Aawla</h3>
+  
+  <p>Amla known as Amalki in Ayurveda helps prevent accumulation of toxins in the body and fight many diseases.</p>
+  <p>Amla, a powerhouse of nutrients, is consumed in many forms in India from pickles, murabbas, candies, juice, chyawanprash</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <br>
+      <img src="aamla2.jpg" style="height: 10cm;" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
+    </div>
+    <br>
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>Amla is also known for its anti-oxidant, anti-cancer and anti-inflammatory properties.</p> 
+      <p>Amla has been used in Asian medicine for centuries to ward off diseases and ensure optimal health. </p>
+      <p> It is best known for its vitamin C content, and contains approximately 20 times more vitamin C than oranges. </p>
+    </div>
+  </div>
+  <b><h3 class="">How to use ?</h3></b>
+  <ul>
+   <li>It can be consumed in raw form or in the form of juice.</li><br>
+   <li>We can also make pickle and supplements of aamla.</li><br>
+   <li>We can massage the scalp using amla oil.</li><br>
+   <li>We can also consume Aawla powder i.e. aawla churna.</li>
+   <br>
+</ul>
+<b><h3 class="">Benefits</h3></b>
+  <ul>
+   <li>Purifies blood</li><br>
+   <li>Regulates blood sugar levels</li><br>
+   <li>Helps in hair growth</li><br>
+   <li>Maintains healthy skin</li><br>
+   <li>Improves Mood And Memory</li><br>
+</ul>
+<b><h3 class="">Precaution</h3></b>
+  <ul>
+   <li> A high dose of aawla juice can cause dryness in the skin.</li><br>
+   <li>Avoid Amla in case of aggravated Kapha problems like coughing.</li><br>
+   <li>Avoid drinking Amla juice at night due to its cold potency and astringent taste.
+</li>
+   <br>
+   
+</ul>
+
+</div>
+
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  
+</div>
+
+
+
+</body>
+</html>
